@@ -10,9 +10,9 @@ class TaskItem {
     // Constructeur de la classe TaskItem
     public TaskItem(string title, string description)
     {
-        Title = title; // Initialise le titre de la tâche
-        Description = description; // Initialise la description de la tâche
-        IsCompleted = false; // La tâche est par défaut non terminée
+        Title = title;
+        Description = description;
+        IsCompleted = false;
     }
 
     // Méthode pour inverser l'état de la tâche (pour passer de non terminée à terminée)
