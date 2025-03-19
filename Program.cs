@@ -20,8 +20,7 @@ class TaskItem {
         IsCompleted = !IsCompleted;
     }
 
-    // La méthode ToString pour afficher les informations de la tâche, puis me retourner une chaîne de caractères contenant les informations de la tache
-
+    // La méthode ToString pour afficher les informations de la tâche, puis me retourner une chaîne de caractères contenant les informations de la tâche
     public override string ToString() {
         return $"{Title} - {Description} [{(IsCompleted ? "Terminé" : "En cours")}]";
     }
@@ -36,7 +35,7 @@ class Program {
     static void Main()
     {
         Console.WriteLine("Bienvenue dans le gestionnaire de tâches !");
-        bool running = true; // Cette variable va me permettre d'executer la boucle principale
+        bool running = true; // Cette variable va me permettre d'exécuter la boucle principale
 
         while (running)
         {
@@ -67,7 +66,7 @@ class Program {
                     running = false;
                     break;
                 default:
-                    Console.WriteLine("Option invalide !"); 
+                    Console.WriteLine("Option invalide !");
                     break;
             }
         }
@@ -78,11 +77,22 @@ class Program {
     {
         Console.Write("Titre de la tâche : ");
         string title = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(title))
+        {
+            Console.WriteLine("Le titre de la tâche ne peut pas être vide.");
+            return;
+        }
+
         Console.Write("Description : ");
         string description = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(description))
+        {
+            Console.WriteLine("La description de la tâche ne peut pas être vide.");
+            return;
+        }
 
         // Création d'une nouvelle tâche et ajout dans la liste
-        tasks.Add(new TaskItem(title, description));
+        tasks.Add(new TaskItem(title ?? string.Empty, description ?? string.Empty));
         Console.WriteLine("Tâche ajoutée !");
     }
 

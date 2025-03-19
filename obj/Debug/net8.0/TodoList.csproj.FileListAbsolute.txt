@@ -12,3 +12,4 @@
 /Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.pdb
 /Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.genruntimeconfig.cache
 /Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/ref/TodoList.dll
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.sourcelink.json
