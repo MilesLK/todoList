@@ -1,0 +1,14 @@
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/bin/Debug/net8.0/TodoList
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/bin/Debug/net8.0/TodoList.deps.json
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/bin/Debug/net8.0/TodoList.runtimeconfig.json
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/bin/Debug/net8.0/TodoList.dll
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/bin/Debug/net8.0/TodoList.pdb
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.AssemblyInfoInputs.cache
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.AssemblyInfo.cs
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.csproj.CoreCompileInputs.cache
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.dll
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/refint/TodoList.dll
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.pdb
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/TodoList.genruntimeconfig.cache
+/Users/bricefrancietta/Desktop/Coding/C#/TodoList/obj/Debug/net8.0/ref/TodoList.dll
